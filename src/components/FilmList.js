@@ -3,9 +3,9 @@ import Film from './Film';
 
 const FilmList = ({films}) => {
     
-    const filmNodes = film.map(film => {
+    const filmNodes = films.map(film => {
         return(
-            <Film title={film.title} key={films.id} url={film.url}/>
+            <Film name={film.name} key={film.id} url={film.url}></Film>
         )
     });
 
