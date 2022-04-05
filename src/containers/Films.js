@@ -34,10 +34,15 @@ const Films = () => {
         ]
     )
 
+    
+
     return (
         <>
-            <h1>Upcoming Film Releases in the UK</h1>
+            <br></br>
+            <h1>Upcoming Film Releases in the U.K.</h1>
+            <img src='https://c.tenor.com/SB7ssLPnWQgAAAAi/peach-cat-movie-time.gif' class='img'/>
             <FilmList films = {films}/>
+            <br></br>
             <MoreFilms/>
         </>
     );

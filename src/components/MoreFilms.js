@@ -2,7 +2,7 @@ import React from 'react';
 
 const MoreFilms = () => {
     return (
-        <h4><a href='https://www.imdb.com/calendar/?region=gb'>More Upcoming Releases</a></h4>
+        <div class = 'container'><button><a href='https://www.imdb.com/calendar/?region=gb' target='blank'>View More Upcoming Releases</a></button></div>
     )
 }
 
